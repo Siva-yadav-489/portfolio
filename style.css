@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light dark;
+}
+* {
+  color: light-dark(#121212, #d9d9d9) !important;
+  background-color: light-dark(#d9d9d9, #121212) !important;
+}
+.text-light {
+  color: light-dark(#000000, #ffffff) !important;
+}
+.plus-jakarta-sans-dmSans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar {
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+.navbar-brand {
+  padding: 0.15rem 0.75rem !important;
+}
+/* .navbar-nav,
+.navbar-brand,
+.navbar-toggler, */
+.socials,
+.email,
+.navbar,
+.tech-btn,
+.project-link {
+  color: light-dark(#121212, #d9d9d9) !important;
+  background-color: light-dark(
+    rgba(18, 18, 18, 0.15),
+    rgba(217, 217, 217, 0.15)
+  ) !important;
+}
+.headings:hover {
+  color: light-dark(#121212, #d9d9d9) !important;
+  background-color: light-dark(
+    rgba(18, 18, 18, 0.15),
+    rgba(217, 217, 217, 0.15)
+  ) !important;
+}
+.nav-link:hover,
+.navbar-brand:hover,
+.navbar-toggler:hover,
+.project-link:hover {
+  /* background-color: #212121 !important; */
+  background-color: light-dark(#d9d9d9, #121212) !important;
+}
+.myImage {
+  max-height: 20rem;
+  border-radius: 50% !important;
+}
+.skill-icons {
+  max-width: 5rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 0;
+}
+.email {
+  cursor: pointer;
+}
