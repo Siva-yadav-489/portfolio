@@ -44,6 +44,8 @@
     rgba(18, 18, 18, 0.15),
     rgba(217, 217, 217, 0.15)
   ) !important;
+  scale: 102%;
+  transition: all 1s;
 }
 .nav-link:hover,
 .navbar-brand:hover,
@@ -51,6 +53,7 @@
 .project-link:hover {
   /* background-color: #212121 !important; */
   background-color: light-dark(#d9d9d9, #121212) !important;
+  scale: 105%;
 }
 .myImage {
   max-height: 20rem;
@@ -63,6 +66,7 @@
 .carousel-control-prev {
   opacity: 0;
 }
-.email {
-  cursor: pointer;
+.email:hover {
+  scale: 103%;
+  transition: all 1s;
 }
