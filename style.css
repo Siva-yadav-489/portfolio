@@ -39,6 +39,11 @@
   ) !important;
 }
 
+.role,
+.tech-btn,
+.figure-caption {
+  cursor: default;
+}
 .socials:hover {
   scale: 90%;
   transition: all 1s;
