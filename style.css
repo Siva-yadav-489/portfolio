@@ -38,6 +38,12 @@
     rgba(217, 217, 217, 0.15)
   ) !important;
 }
+
+.socials:hover {
+  scale: 90%;
+  transition: all 1s;
+}
+
 .headings:hover {
   color: light-dark(#121212, #d9d9d9) !important;
   background-color: light-dark(
